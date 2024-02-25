@@ -7,7 +7,7 @@ Boostrap kullanılmıştır.
 ![github](KullaniciGiris.PNG)
 <br />
 *Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
-![github](FilmlerSayfası.PNG)
+
 
 ![github](FilmlerSayfası.PNG)
 * Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
