@@ -6,7 +6,7 @@ Boostrap kullanılmıştır.
 * Buradan Kullanıcı giriş yapılmıştır
 ![github](KullaniciGiris.PNG)
 <br />
-*Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir
+*Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
 ![github](FilmlerSayfası.PNG)
 
 ![github](Hasta_Giriş_Paneli.PNG)
