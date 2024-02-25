@@ -13,7 +13,7 @@ Boostrap kullanılmıştır.
 ![github](FilmlerSayfası.PNG)<br />
 
 # Filmler 
-Buradan Kullanıcı:
+## Buradan Kullanıcı:
 ## Film Ekleyebilir.
 * ![image](FilmEkle.PNG)
 
@@ -44,5 +44,7 @@ Burada yönetmenler düzenlenebilir.
 ![image](YönetmenSil.PNG)
 ## Yönetmen Silebilir
 ![image](YönetmenSil1.PNG)
+# Not
+## Yapılan değişiklikler diğer 
 
 
