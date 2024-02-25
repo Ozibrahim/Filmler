@@ -3,17 +3,26 @@ Bu uygulama ile kullancılara film tanıtımı amaçlanmıştır. Filmle ilgili 
 Bu proje .net 6 ortamında ASP.Net Core MVC modeli ile yazılmıştır.
 Boostrap kullanılmıştır.
 # Kullanıcı Giriş
-* Buradan Kullanıcı giriş yapılmıştır.
-<br />
-![github](KullaniciGiris.PNG)
-<br />
-*Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
-<br />
+* Buradan Kullanıcı giriş yapılmıştır.<br />
 
-![github](FilmlerSayfası.PNG)
-* Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
-* Geçmiş randevularını görebilir.
-* Randevu isteği oluşturabilir.
+![github](KullaniciGiris.PNG)
+
+*Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
+
+
+![github](FilmlerSayfası.PNG)<br />
+
+# Filmler 
+Buradan Kullanıcı:
+* Film Ekleyebilir.
+* ![image](FilmEkle.PNG)
+
+* Filmleri Güncelleyebilir.
+* ![image](FilmGuncelle.PNG)
+
+* Filmleri Silebilir.<br />
+* ![image](FilmSil.PNG)
+
 ![github](Hasta_bilgiler.png)
 * Hasta; branşı, doktoru ve uygun randevu saatini seçer.
 * Şikayetini yazarak randevu oluşturur.
