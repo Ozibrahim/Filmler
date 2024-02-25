@@ -9,7 +9,7 @@ Boostrap kullanılmıştır.
 *Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
 ![github](FilmlerSayfası.PNG)
 
-![github](Hasta_Giriş_Paneli.PNG)
+![github](FilmlerSayfası.PNG)
 * Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
 * Geçmiş randevularını görebilir.
 * Randevu isteği oluşturabilir.
