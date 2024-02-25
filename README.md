@@ -45,4 +45,5 @@ Burada yönetmenler düzenlenebilir.
 ## Yönetmen Silebilir
 ![image](YönetmenSil1.PNG)
 
-
+# Oyuncular
+* Bu Kısım Geliştirilmeye devam etmektedir.
