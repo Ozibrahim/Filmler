@@ -5,7 +5,10 @@ Boostrap kullanılmıştır.
 # Kullanıcı Giriş
 * Buradan Kullanıcı giriş yapılmıştır
 ![github](KullaniciGiris.PNG)
-*Hasta Giriş Ekranına TC ve Şifresini girer. Kayıtlı Değilse Üye olur.
+<br />
+*Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir
+![github](FilmlerSayfası.PNG)
+
 ![github](Hasta_Giriş_Paneli.PNG)
 * Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
 * Geçmiş randevularını görebilir.
