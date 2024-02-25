@@ -4,7 +4,7 @@ Bu proje .net 6 ortamında ASP.Net Core MVC modeli ile yazılmıştır.
 Boostrap kullanılmıştır.
 # Kullanıcı Giriş
 * Buradan Kullanıcı giriş yapılmıştır
-![github](Hastane_Giris.PNG)
+![github](KullaniciGiris.PNG)
 *Hasta Giriş Ekranına TC ve Şifresini girer. Kayıtlı Değilse Üye olur.
 ![github](Hasta_Giriş_Paneli.PNG)
 * Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
