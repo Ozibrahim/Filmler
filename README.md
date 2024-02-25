@@ -1,4 +1,4 @@
-![image](https://github.com/Ozibrahim/Filmler/assets/86164668/1f3301c1-21cb-4b49-a718-165816e9c8f5)# Filmler
+# Filmler
 Bu uygulama ile kullancılara film tanıtımı amaçlanmıştır. Filmle ilgili kategori, yönetmen, oyuncu bilgileri yanı sra konusu ve puanları hakkında bilgi verilmektetir.<br />
 Bu proje .net 6 ortamında ASP.Net Core MVC modeli ile yazılmıştır.
 Boostrap kullanılmıştır.
