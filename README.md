@@ -3,11 +3,12 @@ Bu uygulama ile kullancılara film tanıtımı amaçlanmıştır. Filmle ilgili 
 Bu proje .net 6 ortamında ASP.Net Core MVC modeli ile yazılmıştır.
 Boostrap kullanılmıştır.
 # Kullanıcı Giriş
-* Buradan Kullanıcı giriş yapılmıştır
+* Buradan Kullanıcı giriş yapılmıştır.
+<br />
 ![github](KullaniciGiris.PNG)
 <br />
 *Kullanıcı girişi yapıldıktan sonra uygulama kullanıcıyı filmler sayfasına yönlendirir.
-
+<br />
 
 ![github](FilmlerSayfası.PNG)
 * Hasta hesabına girdikten sonra bilgilerini düzenleyebilir.
