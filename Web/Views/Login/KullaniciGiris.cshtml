@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="container">
+    @*    <div class="row justify-content-center">
+    <div class="col-md-6 text-center mb-5 mt-2">
+    <h2>Kullanıcı Girişi</h2>
+    </div>
+    </div> *@
+    <div class="row justify-content-center">
+        <div class="col-4 text-center" style="margin-top:100px;">
+            <img src="~/img/best-boat-movies.png" height="400" width="350" />
+        </div>
+        <div class="col-4" style="margin-top:100px;">
+            <div class="d-flex">
+                <div class="w-100">
+                    <h3 class="mb-5">Giriş Yap</h3>
+                </div>
+                <div class="w-100">
+                    <p class="d-flex justify-content-end">
+                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center mx-1"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-discord fa-lg"></i></a>
+                    </p>
+                </div>
+            </div>
+            <form asp-controller="Login" asp-action="KullaniciGiris" method="post">
+                <div class="form-group mb-3">
+                    <label class="label mb-2" for="kullaniciAdi">Kullanıcı Adı</label>
+                    <input type="text" class="form-control" name="kullaniciAdi" id="kullaniciAdi" placeholder="Kullanıcı Adı" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label class="label mb-2" for="sifre">Şifre</label>
+                    <input type="password" class="form-control" name="sifre" id="sifre" placeholder="Şifre" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="form-control btn btn-primary px-3">Giriş</button>
+                </div>
+            </form>
+            <div class="form-group d-flex my-3">
+                <div class="w-50 text-left">
+                    <label class="checkbox-primary">
+                        Beni Hatırla
+                        <input type="checkbox" checked>
+                    </label>
+                </div>
+                <div class="w-50 text-right">
+                    <a href="#">Şifremi Unuttum</a>
+                </div>
+            </div>
+            <p>Üye değil misiniz? <a href="#">Üye Ol</a></p>
+        </div>
+    </div>
+</div>

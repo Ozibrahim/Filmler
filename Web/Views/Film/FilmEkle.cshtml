@@ -1,0 +1,58 @@
+﻿@using Entity.Entity;
+@model Film_Tbl;
+@{
+    var kategoriler = (List<Kategori_Tbl>)ViewBag.Kategoriler;
+    var yonetmenler = (List<Yonetmen_Tbl>)ViewBag.Yonetmenler;
+}
+
+<h1>Film Ekle</h1>
+
+<form asp-action="FilmEkle" asp-controller="Film" method="post">
+       
+    <div class="form-group">
+        <label for="filmAdi">Filmin Adı</label>
+        <input type="text" class="form-control" id="filmAdi" asp-for="FilmAd" placeholder="Film Adı Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label for="filmKonu">Filmin Konusu</label>
+        <input type="text" class="form-control" id="filmKonu" asp-for="FilmKonu" placeholder="Filmin Konusunu Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label for="filmPuan">Filmin Puanı</label>
+        <input type="text" class="form-control" id="filmPuan" asp-for="FilmPuan"  placeholder="Filmin Puanını Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label for="filmYapimYili">Filmin Yapım Yılı</label>
+        <input type="date" class="form-control" id="filmYapimYili" asp-for="FilmYapimYili" placeholder="Filmin Yapım Yılını Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label for="filmKategori">Kategoriler</label>
+        <select class="form-control" id="filmKategori" asp-for="KategoriId">
+            <option value="" selected>Seçiniz...</option>
+            @foreach (var k in kategoriler)
+            {
+                <option value="@k.KategoriId">@k.KategoriAd</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="filmYonetmen">Yönetmenler</label>
+        <select class="form-control" id="filmYonetmen" asp-for="YonetmenId">
+            <option value="" selected>Seçiniz...</option>
+            @foreach (var y in yonetmenler)
+            {
+
+                <option value="@y.YonetmenId">@y.YonetmenAd @y.YonetmenSoyad</option>
+            }
+
+        </select>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary mt-2">Kaydet</button>
+</form>

@@ -1,0 +1,20 @@
+﻿@using Entity.Entity;
+@model Kategori_Tbl;
+@{
+    
+}
+
+<h1>Kategori Ekle</h1>
+
+<form asp-action="KategoriEkle" asp-controller="Kategori" method="post">
+
+    <div class="form-group">
+        <label for="kategoriAdı">Kategori Adı</label>
+        <input type="text" class="form-control" id="kategoriAdı" asp-for="KategoriAd" placeholder="Kategori Adını Giriniz">
+    </div>
+
+    
+
+
+    <button type="submit" class="btn btn-primary mt-2">Kaydet</button>
+</form>

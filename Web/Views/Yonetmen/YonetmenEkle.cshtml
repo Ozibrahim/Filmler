@@ -1,0 +1,35 @@
+﻿@using Entity.Entity;
+@model Yonetmen_Tbl;
+@{
+
+}
+
+<h1>Yönetmen Ekle</h1>
+
+<form asp-action="YonetmenEkle" asp-controller="Yonetmen" method="post">
+
+    <div class="form-group">
+        <label for="yonetmenAdı">Yönetmen Adı</label>
+        <input type="text" class="form-control" id="yonetmenAdı" asp-for="YonetmenAd" placeholder="Yönetmen Adını Giriniz">
+    </div>
+    
+    <div class="form-group">
+        <label for="yonetmenSoyad">Yönetmen Soyadı</label>
+        <input type="text" class="form-control" id="yonetmenSoyad" asp-for="YonetmenSoyad" placeholder="Yönetmen Soyadını Giriniz">
+    </div>
+
+    <div class="form-group">
+        <label for="yonetmenCinsiyet">Cinsiyet</label>
+        <select class="custom-select" id="yonetmenCinsiyet" asp-for="YonetmenCinsiyet">
+           
+            
+            <option value="False" selected>Kadın</option>
+            <option value="True" selected>Erkek</option>
+             
+        </select>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary mt-2">Kaydet</button>
+</form>
