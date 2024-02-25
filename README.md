@@ -36,3 +36,13 @@ Burada Kategoriler düzenlenebilir.<br />
 ![image](KategoriSil1.PNG)
 # Yönetmenler
 Burada yönetmenler düzenlenebilir.
+![image](YönetmenListele.PNG)
+## Yönetmen Eklebilir
+![image](YönetmenEkle.PNG)
+## Yönetmen Güncellebilir
+![image](YönetmenGuncelle.PNG)
+![image](YönetmenSil.PNG)
+## Yönetmen Silebilir
+![image](YönetmenSil1.PNG)
+
+
