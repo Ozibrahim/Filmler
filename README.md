@@ -44,7 +44,5 @@ Burada yönetmenler düzenlenebilir.
 ![image](YönetmenSil.PNG)
 ## Yönetmen Silebilir
 ![image](YönetmenSil1.PNG)
-# Not
-## Yapılan değişiklikler diğer 
 
 
