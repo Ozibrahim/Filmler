@@ -13,7 +13,7 @@ Boostrap kullanılmıştır.
 ![github](FilmlerSayfası.PNG)<br />
 
 # Filmler 
-## Buradan Kullanıcı:
+* Buradan Kullanıcı:
 ## Film Ekleyebilir.
 * ![image](FilmEkle.PNG)
 
